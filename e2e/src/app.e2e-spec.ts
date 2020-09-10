@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('ocrFrontend app is running!');
+    expect(page.getTitleText()).toEqual('demoOcr app is running!');
   });
 
   afterEach(async () => {
