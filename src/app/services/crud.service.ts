@@ -10,7 +10,7 @@ import { environment } from '../../environments/environment';
 })
 export class CrudService {
 
-  // private apiServer =  environment.apiUrl;
+  private apiServer =  environment.apiUrl;
 
   httpOptions = {
     headers: new HttpHeaders({

@@ -38,7 +38,7 @@ export class HomeComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    // mapboxgl.accessToken = environment.mapboxAPI;
+    mapboxgl.accessToken = environment.mapboxAPI;
     this.map = new mapboxgl.Map({
       container: 'map',
       style: this.style,
